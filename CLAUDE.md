@@ -21,4 +21,6 @@ Monorepo for Wabu, a personal finance system: automatic sync of bank, exchange a
 
 ## Git
 
+- Only two branches: `develop` and `main`. Never create other branches (no `feature/…`, `chore/…`, etc.).
+- All work is committed on `develop`. Merge `develop` into `main` only when explicitly asked.
 - A change spanning several projects (e.g. an API endpoint plus the iOS code using it) goes in a single PR.
